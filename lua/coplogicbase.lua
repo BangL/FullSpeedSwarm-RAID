@@ -104,7 +104,8 @@ function CopLogicBase._destroy_detected_attention_object_data(data, attention_in
 		local a_key = attention_info.u_key
 		local n = daoi[0]
 		for i = 1, n do
-			if daoi[i].u_key == a_key then
+			local entry = daoi[i]
+			if entry and entry.u_key == a_key then
 				daoi[i] = daoi[n]
 				daoi[n] = nil
 				daoi[0] = n - 1

@@ -1,7 +1,7 @@
 <mod name="Full Speed Swarm RAID"
     description="Some code optimizations to be able to handle hundreds of responsive enemies."
     author="TdlQ, BangL"
-    version="0.1"
+    version="0.1.1"
     min_sblt_version="2.0.0"
     priority="400"
     image="tdlq.dds"

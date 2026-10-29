@@ -160,9 +160,12 @@ function FullSpeedSwarm.metaize_i(tbl)
 	local _i = { [0] = 0 }
 	local mt = {
 		__newindex = function (t, k, v)
-			_i[0] = _i[0] + 1
-			_i[_i[0]] = v
-			rawset(t, k, v)
+			-- assigning nil to an absent key also lands here, which would leave a hole in the index
+			if v ~= nil then
+				_i[0] = _i[0] + 1
+				_i[_i[0]] = v
+				rawset(t, k, v)
+			end
 		end
 	}
 	setmetatable(tbl, mt)
