@@ -1,0 +1,45 @@
+{
+	"fs_options_menu_title" : "Full Speed Swarm",
+
+	"fs_options_cat_performance" : "Performance",
+	"fs_options_cat_gameplay" : "Gameplay (host decides)",
+
+	"fs_options_task_throughput_title" : "Task throughput per second",
+	"fs_options_task_throughput_desc" : "AI tasks run per second. FSS default: 600. Low values make all NPCs less responsive, values below the game's own rate (80-100) mean 'auto'.",
+
+	"fs_options_walking_quality_title" : "Walking quality",
+	"fs_options_walking_quality_desc" : "A character is moved at least once every 2 frames on Very high and every frame on Ultra.",
+	"fs_options_walking_quality_multi_a" : "Original",
+	"fs_options_walking_quality_multi_b" : "Very high",
+	"fs_options_walking_quality_multi_c" : "Ultra",
+
+	"fs_options_lod_updater_title" : "LOD updater",
+	"fs_options_lod_updater_desc" : "Characters at screen center are animated better. This sets how that target is found. [requires re-entering camp from main menu]",
+	"fs_options_lod_updater_multi_a" : "Quality",
+	"fs_options_lod_updater_multi_b" : "Fast",
+	"fs_options_lod_updater_multi_c" : "Original",
+
+	"fs_options_optimized_inputs_title" : "Optimized inputs",
+	"fs_options_optimized_inputs_desc" : "Improved performance of code related to inputs. [requires re-entering camp from main menu]",
+
+	"fs_options_high_violence_mode_title" : "High violence mode",
+	"fs_options_high_violence_mode_desc" : "Corpses are thrown around by explosions. For ragdolls enthusiasts.",
+
+	"fs_options_fastpaced_title" : "Fast-paced game",
+	"fs_options_fastpaced_desc" : "Reduce significantly the pause between each enemies' actions. In short: enemies move faster.",
+
+	"fs_options_eyes_wide_open_title" : "Eyes wide open",
+	"fs_options_eyes_wide_open_desc" : "All NPCs are always updated 10 times per second once the alarm went off. It supersedes option 'Fast-paced game'.",
+
+	"fs_options_iter_chase_title" : "Improved chase",
+	"fs_options_iter_chase_desc" : "Enemies search the next part of their path while they are still walking, so they waste less time between path segments.",
+
+	"fs_options_nervous_game_title" : "Nervous game",
+	"fs_options_nervous_game_desc" : "After the alarm, enemies know who you are, spot you instantly and shoot sooner! Stealth unaffected. [requires re-entering camp from main menu]",
+
+	"fs_options_improved_tactics_title" : "Improved tactics",
+	"fs_options_improved_tactics_desc" : "Assaulting enemies move from cover to cover, crouch in dangerous places and avoid places where their comrades just died. Requires Iter RAID.",
+
+	"fs_options_cop_awareness_title" : "Enemy awareness",
+	"fs_options_cop_awareness_desc" : "Enemies face danger more and keep firing while walking. [requires re-entering camp from main menu]"
+}

@@ -1,0 +1,45 @@
+{
+	"fs_options_menu_title" : "Full Speed Swarm",
+
+	"fs_options_cat_performance" : "Leistung",
+	"fs_options_cat_gameplay" : "Spielverhalten (Host entscheidet)",
+
+	"fs_options_task_throughput_title" : "KI-Aufgaben pro Sekunde",
+	"fs_options_task_throughput_desc" : "KI-Aufgaben pro Sekunde. FSS-Standard: 600. Niedrige Werte machen alle NPCs träger, Werte unter der Spielrate (80-100) bedeuten 'automatisch'.",
+
+	"fs_options_walking_quality_title" : "Laufqualität",
+	"fs_options_walking_quality_desc" : "Eine Figur wird bei 'Sehr hoch' mindestens jeden zweiten Frame bewegt, bei 'Ultra' jeden Frame.",
+	"fs_options_walking_quality_multi_a" : "Original",
+	"fs_options_walking_quality_multi_b" : "Sehr hoch",
+	"fs_options_walking_quality_multi_c" : "Ultra",
+
+	"fs_options_lod_updater_title" : "LOD-Aktualisierung",
+	"fs_options_lod_updater_desc" : "Figuren in der Bildmitte werden besser animiert. Betrifft, wie ermittelt wird, wen du anschaust. [Camp neu aus dem Hauptmenü betreten]",
+	"fs_options_lod_updater_multi_a" : "Qualität",
+	"fs_options_lod_updater_multi_b" : "Schnell",
+	"fs_options_lod_updater_multi_c" : "Original",
+
+	"fs_options_optimized_inputs_title" : "Optimierte Eingaben",
+	"fs_options_optimized_inputs_desc" : "Schnellere Verarbeitung der Eingabegeräte. [Camp neu aus dem Hauptmenü betreten]",
+
+	"fs_options_high_violence_mode_title" : "Hohe Gewalt",
+	"fs_options_high_violence_mode_desc" : "Leichen werden von Explosionen herumgeschleudert. Für Ragdoll-Fans.",
+
+	"fs_options_fastpaced_title" : "Schnelles Spiel",
+	"fs_options_fastpaced_desc" : "Deutlich kürzere Pausen zwischen den Aktionen der Gegner. Kurz: Gegner bewegen sich schneller.",
+
+	"fs_options_eyes_wide_open_title" : "Hellwach",
+	"fs_options_eyes_wide_open_desc" : "Nach dem Alarm werden alle NPCs immer 10-mal pro Sekunde aktualisiert. Ersetzt die Option 'Schnelles Spiel'.",
+
+	"fs_options_iter_chase_title" : "Bessere Verfolgung",
+	"fs_options_iter_chase_desc" : "Gegner suchen den nächsten Wegabschnitt schon während des Laufens und verlieren so weniger Zeit zwischen den Abschnitten.",
+
+	"fs_options_nervous_game_title" : "Nervöses Spiel",
+	"fs_options_nervous_game_desc" : "Nach dem Alarm kennen dich die Gegner, erkennen dich sofort und schießen schneller! Stealth unverändert. [Camp neu aus dem Hauptmenü betreten]",
+
+	"fs_options_improved_tactics_title" : "Bessere Taktik",
+	"fs_options_improved_tactics_desc" : "Angreifer rücken von Deckung zu Deckung vor, ducken sich an gefährlichen Stellen und meiden Orte gefallener Kameraden. Benötigt Iter RAID.",
+
+	"fs_options_cop_awareness_title" : "Wachsame Gegner",
+	"fs_options_cop_awareness_desc" : "Gegner wenden sich Gefahren stärker zu und schießen auch im Gehen weiter. [Camp neu aus dem Hauptmenü betreten]"
+}
