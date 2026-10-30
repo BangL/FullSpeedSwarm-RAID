@@ -3,7 +3,7 @@ if _G[key] then return else _G[key] = true end
 
 _G.FullSpeedSwarm = _G.FullSpeedSwarm or {}
 FullSpeedSwarm._path = ModPath
-FullSpeedSwarm._data_path = SavePath .. 'full_speed_swarm.txt'
+FullSpeedSwarm._data_path = SavePath .. 'full_speed_swarm.json'
 FullSpeedSwarm.in_arrest_logic = {}
 FullSpeedSwarm.units_per_navseg = {}
 FullSpeedSwarm.call_on_loud = {}
@@ -14,7 +14,7 @@ FullSpeedSwarm.settings = {
 	lod_updater = 1,
 	optimized_inputs = true,
 	high_violence_mode = true,
-	slower_but_safer = false, -- to be enabled in mods/saves/full_speed_swarm.txt
+	slower_but_safer = false, -- to be enabled in mods/saves/full_speed_swarm.json
 	walking_quality = 1,
 
 	cop_awareness = false,
