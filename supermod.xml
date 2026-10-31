@@ -8,7 +8,7 @@
     color="0.52 1 0">
     <updates>
         <update identifier="fullspeedswarm-raid">
-            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/fullspeedswarm-raid.json"/>
+            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/fullspeedswarm-raid.json" patchnotes="https://github.com/BangL/FullSpeedSwarm-RAID/blob/main/CHANGELOG.md"/>
         </update>
     </updates>
     <localization directory="loc">

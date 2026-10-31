@@ -1,3 +1,9 @@
+Version 0.1.2:
+- settings are stored as json
+
+Version 0.1.1:
+- fixed a nil hole in the detected attention objects index
+
 Version 0.1 (RAID port of Full Speed Swarm r337 by TdlQ, ported by BangL):
 - AI task queue: configurable throughput (RAID's own rate is 80 to 100 tasks per second), executed tasks are cleaned up in one pass, a task queued again before it ran is updated instead of queued twice
 - important enemies and snipers are updated every 0.1 s instead of every frame, bots' brains 10 times per second through the task queue
